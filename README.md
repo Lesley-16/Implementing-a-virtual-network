@@ -11,8 +11,8 @@ This project demonstrates the implementation of a Virtual Network (VNet) in Micr
 
 ## Architecture
 The architecture includes:
-- A primary Virtual Network (VNet)
-- Multiple subnets for different resource types (e.g., ubuntuFinanceVM, ubuntuSEOVM)
+- A Virtual Network (VNet)
+- 2 subnets for different resource types (e.g., ubuntuFinanceVM, ubuntuSEOVM)
 - NSGs associated with subnets to control inbound/outbound traffic
 - VNet peering to enable communication between VNets
 
@@ -23,7 +23,7 @@ The architecture includes:
 4. **Configured VNet peering** to allow communication between different VNets
 5. **Created 2 ubuntu Virtual Machines**
 6. **Connect to virtual machines using Bastion** by using username and password i have used when creating virtual machine.
-7. **Start communication bettween virtual machines** using bash prompt.
+7. **Start communication between virtual machines** using bash prompt.
 
 ## Technologies Used
 - Microsoft Azure
